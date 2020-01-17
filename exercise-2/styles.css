@@ -18,6 +18,7 @@ body{
   height: 300px;
   margin:auto;
   overflow:hidden;
+  padding-bottom: 10px;
 }
 
 
@@ -35,18 +36,17 @@ body{
   background: white;
   margin: 10px;
   height: 300px;
+  padding: 10px;
 }
 
-#boxes .box .img1{
+#boxes .box #img1,
+#boxes .box #img2,
+#boxes .box #img3{
   float: left;
 }
 
-#boxes .box .img2{
-  float: right;
-}
-
-#boxes .box .img3{
-  float: left;
+#boxes .box #star{
+  float:right;
 }
 
 h2, h3, p{
@@ -68,6 +68,11 @@ h2, h3, p{
   padding-left: 20px;
   padding-right:20px;
   color:#ffffff;
+}
+
+.box form{
+  float: bottom;
+  margin-top:15px;
 }
 * {
   box-sizing: border-box;
