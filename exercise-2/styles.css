@@ -16,7 +16,8 @@ body{
 .container{
   width: 100%;
   height: 300px;
-  margin:0;
+  margin:auto;
+  overflow:hidden;
 }
 
 
@@ -36,13 +37,37 @@ body{
   height: 300px;
 }
 
-#boxes .box img{
+#boxes .box .img1{
+  float: left;
+}
+
+#boxes .box .img2{
   float: right;
+}
+
+#boxes .box .img3{
+  float: left;
 }
 
 h2, h3, p{
   text-align: right;
   float: right;
+}
+.button_1{
+  height:38px;
+  background:#D8D8D8;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+.button_2{
+  height:38px;
+  background:#0000FF;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
 }
 * {
   box-sizing: border-box;
