@@ -1,24 +1,36 @@
 body {
   margin: 0;
+  background-color:#404040;
 }
- img{
-   width: 30vh;
-   height: 25vw;
+ .scroll img{
+   width: 100%;
+   height:auto;
+   float:left;
+   margin: 10px;
+   padding-right:10px;
+ }
+
+ .view img{
+   width: 60%;
+   height: auto;
+   float: right;
+   margin: 10px;
  }
 .container{
   margin: auto;
 }
 
-.horizontal{
-  float:right
-  background-color:red
+.view{
   padding:5px;
 }
 
-.vertical{
+.scroll{
+  width: 35%;
+  height:100vh;
   float:left;
-  background-color:black;
-  padding:5px;
+  background-color:#404040;
+  padding:10px 10px 10px 10px;
+  overflow: scroll;
 }
 
 * {
