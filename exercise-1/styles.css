@@ -63,35 +63,42 @@ body {
   margin-right: auto;
   max-width: 56em;
 }
-@media(max-width: 600px){
-    .wrapper .grid .box{
-      width: 50px;
-      height:300px;
-      float: left;
-    }
-    .wrapper .grid .text{
-      text-align: center;
-      float: right;
-      padding: 20px;
-    }
-}
 
 @media(max-width: 900px){
   .wrapper .grid .grid__black{
     width: 50px;
-    height:300px;
+    height:45vh;
     float: left;
   }
   .wrapper .grid .grid__red{
     width: 50px;
-    height:300px;
+    height:45vh;
     float: right;
   }
+  .wrapper .grid .grid__text{
+    text-align: center;
+    float: right;
+    padding: 20px;
+    width: 70%;
+    height: auto;
+  }
+}
+
+@media(max-width: 600px){
+  .wrapper .grid .box{
+    width: 50px;
+    height:45vh;
+    float: left;
+}
   .wrapper .grid .text{
     text-align: center;
-    float: center;
+    float: left;
     padding: 20px;
-  }
+    margin-left: 8vw;
+    margin-top: -95vh;
+    margin-right: 20px;
+    width: 80vw;
+    height: auto
 }
 
 }
