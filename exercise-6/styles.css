@@ -53,3 +53,15 @@ body {
 .button__three {
   left: 96px;
 }
+
+.marquee .button__one:hover{
+  background-color: red;
+}
+
+.marquee .button__two:hover{
+  background-color: green;
+}
+
+.marquee .button__three:hover{
+  background-color: yellow;
+}
