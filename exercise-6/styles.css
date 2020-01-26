@@ -54,14 +54,17 @@ body {
   left: 96px;
 }
 
+.marquee .button__one:hover ~ .bulb:nth-child(3n+1),
 .marquee .button__one:hover{
-  background-color: red;
+  background-color: yellow;
 }
 
+.marquee .button__two:hover ~ .bulb:nth-child(3n+2),
 .marquee .button__two:hover{
-  background-color: green;
+  background-color: yellow;
 }
 
+.marquee .button__three:hover ~ .bulb:nth-child(3n+3),
 .marquee .button__three:hover{
   background-color: yellow;
 }
